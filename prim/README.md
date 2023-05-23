@@ -24,7 +24,7 @@ Imprime o custo do AGM representado no arquivo "inputData.txt":
   
 Imprime a árvore geradora mínima (em ordem crescente):  
 ```
-./prim -f inputData -s
+./prim -f inputData.txt -s
 ```  
 
 Imprime a árvore geradora mínima (em ordem crescente), iniciando a partir do vértice inicial (3):
@@ -39,7 +39,7 @@ Imprime o Help:
 
 Escreve no arquivo `output.txt` a AGM (árvore geradora mínima):  
 ```
-./prim -f inputData -s -o output.txt
+./prim -f inputData.txt -s -o output.txt
 ```
 
 ## Informações importantes  
