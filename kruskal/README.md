@@ -33,7 +33,7 @@ Imprime o Help:
 
 Escreve no arquivo `output.txt` a AGM (árvore geradora mínima):  
 ```
-./dijkstra -f inputData.txt -s -o output.txt
+./kruskal -f inputData.txt -s -o output.txt
 ```
 
 ## Informações importantes  
