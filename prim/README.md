@@ -1,4 +1,4 @@
-# Dijkstra - Teoria dos Grafos
+# Prim - Teoria dos Grafos
 
 ## Compilando
 
