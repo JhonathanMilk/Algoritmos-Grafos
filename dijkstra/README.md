@@ -11,19 +11,19 @@ São aceitos os seguintes parâmetros na execução:
 > **-h :** mostra o help  
 > **-o < *output* > :** redireciona a saida do programa para o ‘‘output’’  
 > **-f < *inputData* > :** indica o arquivo que contém o grafo de entrada  
-> **-i :** vértice inicial  (Caso não seja passado, consideramos por padrão = 1)
+> **-i :** vértice inicial  (valor padrão = 1)
   
 Obrigatoriamente deve-se passar ao menos o inputData como parâmetro na execução do programa  
   
 ## Exemplos de execução:  
 Imprime a distância do vértice inicial (1) até os demais vértices:  
 ```
-./dijkstra -f inputData
+./dijkstra -f inputData.txt
 ```
   
 Imprime a distância do vértice inicial (3) até os demais vértices:  
 ```
-./dijkstra -f inputData -i 3
+./dijkstra -f inputData.txt -i 3
 ```  
 
 Imprime o Help:  
@@ -33,7 +33,7 @@ Imprime o Help:
 
 Escreve no arquivo `output.txt` a distância do vértice inicial (3) até os demais vértices:  
 ```
-./dijkstra -f inputData -i 3 -o output.txt
+./dijkstra -f inputData.txt -i 3 -o output.txt
 ```
 
 ## Informações importantes  
