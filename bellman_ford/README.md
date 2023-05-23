@@ -33,7 +33,7 @@ Em seguida, deve ter **m** linhas, que representam as arestas do grafo, cada lin
 
 Lembrando que para o algoritmo funcionar corretamente os vérticos devem ser de 1 a n.  
 
-#### Grafo exemplo  
+#### Grafo exemplo::  
 ```
 6 8
 1 2 5
@@ -44,7 +44,17 @@ Lembrando que para o algoritmo funcionar corretamente os vérticos devem ser de 
 2 5 7
 3 5 6
 4 6 1
+```  
+
+#### Grafos para testes (inputData):  
+
+O diretório `input-graphs` possui 20 arquivos no formato ```.mtx``` para testar o programa.
+Podemos então, por exemplo, executar o programa com o comando:  
 ```
+./bellman_ford.bin < input-graphs/grafo1.mtx
+```  
+
+
 
 
 
