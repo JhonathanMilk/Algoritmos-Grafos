@@ -50,7 +50,7 @@ Em seguida, deve ter **m** linhas, que representam as arestas do grafo, cada lin
 
 Lembrando que para o algoritmo funcionar corretamente os vérticos devem ser de 1 a n.
 
-#### Grafo exemplo  
+#### Grafo exemplo:  
 ```
 6 8
 1 2 5
