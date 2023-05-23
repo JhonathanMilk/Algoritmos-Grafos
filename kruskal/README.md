@@ -1,4 +1,4 @@
-# Dijkstra - Teoria dos Grafos
+# Kruskal - Teoria dos Grafos
 
 ## Compilando
 
