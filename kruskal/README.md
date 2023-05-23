@@ -18,22 +18,22 @@ Obrigatoriamente deve-se passar ao menos o inputData como parâmetro na execuç�
 ## Exemplos de execução:  
 Imprime o custo do grafo representado no arquivo "inputData.txt":  
 ```
-./dijkstra -f inputData.txt
+./kruskal -f inputData.txt
 ```
   
 Imprime a árvore geradora mínima (em ordem crescente):  
 ```
-./dijkstra -f inputData -s
+./kruskal -f inputData.txt -s
 ```  
 
 Imprime o Help:  
 ```
-./dijkstra -h
+./kruskal -h
 ```  
 
 Escreve no arquivo `output.txt` a AGM (árvore geradora mínima):  
 ```
-./dijkstra -f inputData -s -o output.txt
+./dijkstra -f inputData.txt -s -o output.txt
 ```
 
 ## Informações importantes  
