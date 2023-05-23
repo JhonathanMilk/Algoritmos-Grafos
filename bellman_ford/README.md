@@ -1,4 +1,4 @@
-# Dijkstra - Teoria dos Grafos
+# Bellman Ford - Teoria dos Grafos
 
 ## Compilando
 
