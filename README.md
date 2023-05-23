@@ -13,6 +13,6 @@ Algoritmos implementados para a disciplina "Teoria dos Grafos"
 
 # Informações
 Cada algoritmo possue diretório próprio, contendo os arquivos: 
-- **< *algoritmo* >** -> Código bruto (não compilado)
-- **makefile** -> Possui comandos de compilação, execução e limpeza do executável (binário)
+- **< *algoritmo* >** -> Código (não compilado)
+- **makefile** -> Possui comandos de compilação do código, execução e limpeza do executável (binário)
 - **README.md** -> Instruções de compilação e execução do código
