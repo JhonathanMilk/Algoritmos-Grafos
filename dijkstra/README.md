@@ -2,7 +2,9 @@
 
 ## Compilando
 
-```make compile```
+```
+make compile
+```
 
 ## Executando
 São aceitos os seguintes parâmetros na execução:
@@ -15,16 +17,24 @@ Obrigatoriamente deve-se passar ao menos o inputData como parâmetro na execuç�
   
 ## Exemplos de execução:  
 Imprime a distância do vértice inicial (1) até os demais vértices:  
-`./dijkstra -f inputData`  
+```
+./dijkstra -f inputData
+```
   
 Imprime a distância do vértice inicial (3) até os demais vértices:  
-`./dijkstra -f inputData -i 3`  
+```
+./dijkstra -f inputData -i 3
+```  
 
 Imprime o Help:  
-`./dijkstra -h`  
+```
+./dijkstra -h
+```  
 
 Escreve no arquivo `output.txt` a distância do vértice inicial (3) até os demais vértices:  
-`./dijkstra -f inputData -i 3 -o output.txt`
+```
+./dijkstra -f inputData -i 3 -o output.txt
+```
 
 ## Informações importantes  
 
